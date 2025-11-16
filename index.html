@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kỷ niệm 20/11 - Ngày Nhà giáo Việt Nam</title>
+    <link rel="icon" type="img/image.png" href="img/image.png">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/font/bootstrap-icons.min.css"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    </div>
+    <div class="stars" id="stars"></div>
+    <div class="shooting-star"></div>
+
+    <div class="main-container">
+        <section class="hero-section">
+            <div class="container text-center">
+
+                <h1 class="hero-name">Chào mừng Ngày Nhà giáo Việt Nam 20/11</h1>
+                <p class="hero-subtitle">
+                    <i class="bi bi-book"></i> Tri ân thầy cô |
+                    <i class="bi bi-heart-fill"></i> Tôn vinh nghề giáo |
+                    <i class="bi bi-stars"></i> Thắp sáng ước mơ
+                </p>
+            </div>
+        </section>
+        <section class="py-5">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="info-card">
+                            <i class="card-icon bi bi-person-lines-fill"></i>
+
+                            <h3>
+                                <i class="bi bi-info-circle me-2"></i>Lời tri ân
+                            </h3>
+                            <p>Nhân ngày Nhà giáo Việt Nam 20/11,xin gửi lời cảm ơn chân thành đến những người thầy,
+                                người cô đã tận tâm dìu dắt, truyền đạt tri thức và thắp sáng ước mơ cho bao thế hệ học
+                                trò.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="info-card">
+                            <i class="card-icon bi bi-laptop"></i>
+                            <h3>
+                                <i class="bi bi-briefcase me-2"></i>Tôi là học trò
+                            </h3>
+                            <p>Luôn ghi nhớ công lao dạy dỗ của thầy cô, biết ơn những bài học không chỉ trong sách vở
+                                mà còn trong cuộc sống.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="info-card">
+                            <i class="card-icon bi bi-chat-heart"></i>
+                            <h3>
+                                <i class="bi bi-chat-dots me-2"></i>Tấm lòng
+                            </h3>
+                            <p>Kính trọng, biết ơn và mong muốn lan tỏa tinh thần tri ân thầy cô đến mọi người.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="hobbies-section">
+
+            <div class="container">
+                <h2 class="section-title text-center">
+                    <i class="bi bi-heart-fill me-3"></i>Suy nghĩ & Ước mơ
+                </h2>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="hobby-item" onclick="openModal('tri-thuc')">
+                            <i class="hobby-icon bi bi-book"></i>
+                            <div class="hobby-title">Tri thức</div>
+                            <div class="hobby-desc">Tri thức thầy cô trao là hành trang quý giá cho cuộc đời.</div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="hobby-item" onclick="openModal('dinh-huong')">
+                            <i class="hobby-icon bi bi-lightbulb"></i>
+                            <div class="hobby-title">Định hướng</div>
+                            <div class="hobby-desc">Thầy cô là ngọn hải đăng soi sáng con đường học tập.</div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="hobby-item" onclick="openModal('tinh-cam')">
+                            <i class="hobby-icon bi bi-people"></i>
+                            <div class="hobby-title">Tình cảm</div>
+                            <div class="hobby-desc">Tình thầy trò là kỷ niệm đẹp, không bao giờ phai.</div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="hobby-item" onclick="openModal('uoc-mo')">
+                            <i class="hobby-icon bi bi-stars"></i>
+                            <div class="hobby-title">Ước mơ</div>
+                            <div class="hobby-desc">Những ước mơ được thầy cô chắp cánh bay cao.</div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="hobby-item" onclick="openModal('cam-on')">
+                            <i class="hobby-icon bi bi-heart"></i>
+                            <div class="hobby-title">Cảm ơn</div>
+                            <div class="hobby-desc">Lời cảm ơn chân thành nhất đến thầy cô.</div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="hobby-item" onclick="openModal('tuong-lai')">
+                            <i class="hobby-icon bi bi-trophy"></i>
+                            <div class="hobby-title">Tương lai</div>
+                            <div class="hobby-desc">Với thầy cô, tương lai luôn tươi sáng.</div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="hobby-item" onclick="openModal('nho-mai')">
+                            <i class="hobby-icon bi bi-clock-history"></i>
+                            <div class="hobby-title">Nhớ mãi</div>
+                            <div class="hobby-desc">Những kỷ niệm với thầy cô không bao giờ quên.</div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="hobby-item" onclick="openModal('biet-on')">
+                            <i class="hobby-icon bi bi-gift"></i>
+                            <div class="hobby-title">Biết ơn</div>
+                            <div class="hobby-desc">Lời tri ân sâu sắc đến người thầy.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-section">
+            <div class="container text-center">
+                <h2 class="section-title">
+                    <i class="bi bi-envelope-heart me-3"></i>Lời chúc 20/11
+                </h2>
+                <p class="lead">Xin kính chúc các thầy cô giáo luôn mạnh khỏe, hạnh phúc và tiếp tục truyền lửa đam mê
+                    cho thế hệ mai sau. 🌸</p>
+
+            </div>
+        </section>
+    </div>
+    <div class="teacher-modal" id="teacherModal">
+        <div class="modal-content-wrapper">
+            <button class="modal-close" onclick="closeModal()">×</button>
+            <div class="modal-body">
+                <div class="modal-image-section">
+                    <div class="modal-image-main">
+                        <img id="modalImage" src="" alt="Teacher">
+                    </div>
+                </div>
+                <div class="modal-text-section">
+                    <h2 class="modal-title" id="modalTitle"></h2>
+                    <div class="modal-message" id="modalMessage"></div>
+                    <div class="modal-signature">- Học trò của thầy cô -</div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+        <script src="script.js"></script>
+</body>
+
+</html>
